@@ -1,0 +1,32 @@
+Nesse arquivo tem detalher sobre tudo que rolou no terminal 
+
+1- << yarn init -y >> gera um novo arquivo "package.json
+2- << yarn add express >> instalação do express adicionando dados tbm no pachege.json, e o arquivo "yarn.lock"
+3- criar pasta src e incluir arquivo server.ts, adita-lo
+4- <<  yarn add @types/express -D >> necessario para o pacote express
+5- << node src/server.ts >> toda vez que for execultar o server
+6- << yarn add typescript -D >> para instalar o typescript para comunicar com o node
+7- << yarn tsc --init >> criar arquivo de configuração (tsconfig.json)
+8- << yarn add ts-node-dev -D >> idependencia de desenvolvimento
+9- << yarn dev >> para execulção do programa  
+0- << yarn add typeorm sqlite3 >> para o node ter acesso ao banco de dados
+1- << yarn typeorm >> verificar comandos
+2- << yarn typeorm myarn typeorm migration:runigration:creat -n create_orphanages >> criar migration
+3- << yarn typeorm migration:run >> executar migration para criar tabela de danco de dados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obs package.json: --transpile-only >> impede ferificação de erros já que o serever.ts já faz isso, deixando o processo mais rápido
+                  --ignore-watch node_modules >> deixar de observar alterações na pasta node_modules deixando aplicação mais rápida
